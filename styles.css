@@ -1,0 +1,164 @@
+/* Color palette: https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500 */
+
+/* BODY FONT AND POSITIONING */
+
+html, body {
+	font-family: Inconsolata, Sans-Serif;
+    height: 100%;
+    background-color: #023047;
+}
+
+.white-container {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 4em 5em;
+}
+
+/* HEADINGS */
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* HYPERLINKS */
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-image: linear-gradient(#FFB703, #FFB703);
+    background-origin: 0;
+    background-size: 200% 50%;
+    background-repeat: repeat-x;
+    background-position: -100% 100%;
+    transition: background-size 0.2s linear;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    background-size: 200% 100%;
+}
+
+/* REMOVE HYPERLINK DECORATION */
+/*
+a {
+    text-decoration: none;
+    background-image: none;
+    background-origin: 0;
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0; 
+}
+*/
+
+/* IMAGES */
+/*
+img {
+    width: 100%;
+}
+*/
+
+/* HORIZONTAL LINE BREAK */
+
+hr {
+    width: 25%;
+    margin: 2em auto;
+    border: 1px solid #8ECAE6;
+}
+
+/* IFRAME/EMBEDDED PAGES */
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+i a {
+    text-decoration: none;
+    background-image: none;
+    background-origin: 0;
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0; 
+    padding-right: 1em;
+}
+
+/********** HOME PAGE **********/
+
+/* HOME PAGE HEADING */
+
+.home {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.home a {
+    text-decoration: none;
+    background-image: none;
+    background-origin: 0;
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0; 
+}
+
+/* HOME PAGE SUBHEADING */
+
+.home-sub {
+    font-size: 0.8em;
+    font-weight: 100;
+    text-align: center;
+    padding: 1em 0 0;
+}
+
+/* HOME PAGE SECTION */
+
+.home-section {
+    padding: 1em 0 1.5em;
+}
+
+/* LIST OF GAMES ON HOME PAGE */
+
+.game-padding p {
+    padding: 1em 2em 0;
+}
+
+.game-link {
+    font-weight: 900;
+    letter-spacing: .5px;
+    /*font-style: italic;*/
+    text-decoration: none;
+    background-image: none;
+    background-origin: 0;
+    background-size: 0;
+    background-repeat: no-repeat;
+    background-position: 0;
+    transition: color 0.2s linear, letter-spacing 0.2s linear;
+}
+
+.game-link:hover {
+    color: #219EBC;
+    letter-spacing: 1px;
+}
+
+.game-unlinked {
+    font-weight: 900;
+    letter-spacing: .5px;
+}
